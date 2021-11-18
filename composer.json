@@ -1,0 +1,19 @@
+{
+  "name": "lindesbs/vcard",
+  "type": "library",
+  "license": "LGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Stefan Lindecke",
+      "homepage": "https://lindesbs.de"
+    }
+  ],
+  "require": {
+    "symfony/uid": "^v5"
+  },
+  "autoload": {
+    "psr-4": {
+      "lindesbs\\vcard\\": "src/"
+    }
+  }
+}
